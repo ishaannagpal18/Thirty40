@@ -1,0 +1,51 @@
+.row1{
+  padding-bottom: 8%;
+}
+#hero .home-content {
+    width: 90%;
+    height: 110%;
+}
+#header{
+  padding: 10px 0 0;
+}
+#header .logo img {
+    max-height: 60px;
+}
+.line{
+  border:1px solid #ccc;
+    padding-top:67px;
+}
+.login_bottom{
+  width:45%;
+
+  border:1px solid #ccc;
+  padding:40px;
+}
+.login_top{
+  width:45%;
+  border:1px solid #ccc;
+  padding-top:50px;
+  padding-bottom:50px;
+}
+.blog{
+  border:1px solid #ccc;
+  padding:7% 3%;
+}
+@media screen and (max-width: 550px){
+  .line{
+  border:1px solid #ccc;
+    padding-top:56px;
+}
+.login_bottom{
+  width:90%;
+
+  border:1px solid #ccc;
+  padding:40px;
+}
+.login_top{
+  width:90%;
+  border:1px solid #ccc;
+  padding-top:50px;
+  padding-bottom:50px;
+}
+}
