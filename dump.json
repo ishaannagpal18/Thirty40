@@ -1,0 +1,160 @@
+[
+{
+  "model": "auth.user",
+  "fields": {
+    "password": "pbkdf2_sha256$260000$pVT3DIvP6DS6hLsKBNm2bF$xpXi/nQ/oRm80f+MiOw29XBxZZiCSlXa7/cMSzkpRSE=",
+    "last_login": "2021-09-23T09:34:17.418Z",
+    "is_superuser": true,
+    "username": "ishaan",
+    "first_name": "",
+    "last_name": "",
+    "email": "ishaan18nagpal@gmail.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2021-09-16T16:37:10.932Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "fields": {
+    "password": "pbkdf2_sha256$260000$2T4x7C5HxU2uSwBm3keGi2$nYQJ4H7ZQ7r8JnKlEMWF8wLJY/z/SSCmcpiCsPRfFWM=",
+    "last_login": "2021-09-19T15:32:14.527Z",
+    "is_superuser": false,
+    "username": "ishaannagpal09",
+    "first_name": "",
+    "last_name": "",
+    "email": "ishaannagpal09@gmail.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2021-09-19T15:31:59.018Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "fcdsclxc428apsuyxkiv4nqo7xv9a48j",
+  "fields": {
+    "session_data": ".eJxVjMsOwiAQRf-FtSEy0GFw6b7fQKY8pGogKe3K-O_apAvd3nPOfQnP21r81tPi5yguAsTpd5s4PFLdQbxzvTUZWl2XeZK7Ig_a5dhiel4P9--gcC_fOmVLhO4MiBNFhmCGCNZZ59CgUhy0Bh2ScllzphyQlAMeAMmAUobE-wPD-jah:1mRyne:7v0Badfz3iB5ooXm6ZVo5XCI_NhXccwz-NM86lLIorI",
+    "expire_date": "2021-10-03T15:32:14.544Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "nvdey8tds8enm5emhznr1w2urf8da0a7",
+  "fields": {
+    "session_data": ".eJxVjDsOwjAQBe_iGlkbe-MPJT1niNZeLw4gR8qnQtwdIqWA9s3Me6mBtrUO21LmYWR1Vp06_W6J8qO0HfCd2m3SeWrrPCa9K_qgi75OXJ6Xw_07qLTUbx3ROOcgM6YcBKxH03sbxPgOOPjQIxGkZFFQDHpgI5gjA0VnxUGv3h-40jbl:1mTJvu:3XdlRN81ptxQyHOr6gVzoBLX_dRgu-_0YSSt38dl9us",
+    "expire_date": "2021-10-07T08:18:18.633Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "tnw710mrwnkta2jdbtldyq1yufcqs8f6",
+  "fields": {
+    "session_data": ".eJxVjDsOwjAQBe_iGlkbe-MPJT1niNZeLw4gR8qnQtwdIqWA9s3Me6mBtrUO21LmYWR1Vp06_W6J8qO0HfCd2m3SeWrrPCa9K_qgi75OXJ6Xw_07qLTUbx3ROOcgM6YcBKxH03sbxPgOOPjQIxGkZFFQDHpgI5gjA0VnxUGv3h-40jbl:1mQuO6:TFX9SjD746cR4OLu-uCMj95TyC5YdZO4uTPqkzzLq84",
+    "expire_date": "2021-09-30T16:37:26.375Z"
+  }
+},
+{
+  "model": "contact.contactlist",
+  "pk": 1,
+  "fields": {
+    "address": "A ground floor, 8, 1063, HK no- 1151/3, Ward No 8, Aam Bagh, Mehrauli Village, Mehrauli, New Delhi, Delhi 110030",
+    "email": "info@thirty40.in",
+    "phone": "+919811072043, +4915255191963"
+  }
+},
+{
+  "model": "Blog.blog",
+  "pk": 1,
+  "fields": {
+    "author": [
+      "ishaan"
+    ],
+    "blog_title": "acadsvsdv",
+    "slug": ".",
+    "blog_content": "dsdvsdvsdvdvadvvcasmlsaj kaclsnlcka ;asnclkans kasnclknsa asclaksncn ;as;cnas ;ascmas,c ;amsc;nsac ;sac;asmc ;asmcsmalc\r\nclkasnc\r\nmcaslkcm\r\nmasklcnsc\r\nmalkscnmslc\r\namclansc\r\nalkscnal\r\nmalscnl\r\najslndclqncqmc;lkqwj; mcsklajc;lqwc lknaslkcj;qwc ;slakmc;asc;  ;sajc;pjsa ;samc;sakc;osa ;sacm;soakc[o;skac sa;cm;osakc[osa as;cm;sakc;[sac ;alsmc;askmc;'sac ;slmc;sakc;osac a;scksakc['sakc[p'sakc ;sakc[p'sakc[pskac[pks s;cakc;oksa;co ;asckopaskcpo;sac s;acm;osajcp;osa a;scks;oakcsa;c ;asck;osamco; as;cjs;oajcs;a ;asokcpoaskc  ;ascksakc[sa c;sack\r\nanslcn\r\ncmsa;cmjp;sjakc\r\nmcsal;cj ascml;am;soakc[o;skac sa;cm;osakc[osa as;cm;sakc;[sac ;alsmc;askmc;'sac ;slmc;sakc;osac a;scksakc['sakc[p'sakc ;sakc[p'sakc[pskac[pks s;cakc;oksa;co ;asckopaskcpo;sac s;acm;osajcp;osa a;scks;oakcsa;c ;asck;osamco; as;cjs;oajcs;a ;asokcpoaskc  ;ascksakc[sa c;sack\r\nm;soakc[o;skac sa;cm;osakc[osa as;cm;sakc;[sac ;alsmc;askmc;'sac ;slmc;sakc;osac a;scksakc['sakc[p'sakc ;sakc[p'sakc[pskac[pks s;cakc;oksa;co ;asckopaskcpo;sac s;acm;osajcp;osa a;scks;oakcsa;c ;asck;osamco; as;cjs;oajcs;a ;asokcpoaskc  ;ascksakc[sa c;sack",
+    "blog_image": "blog_image/blog-1.jpg",
+    "publish_date": "2021-09-23",
+    "upload_date": "2021-09-23"
+  }
+},
+{
+  "model": "Blog.comment",
+  "pk": 1,
+  "fields": {
+    "blog": 1,
+    "user": [
+      "ishaan"
+    ],
+    "comment": "jnhakdhfckah",
+    "comment_date": "2021-09-23"
+  }
+},
+{
+  "model": "Blog.like",
+  "pk": 2,
+  "fields": {
+    "blog": 1,
+    "user": [
+      "ishaan"
+    ]
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 1,
+  "fields": {
+    "action_time": "2021-09-16T17:43:15.015Z",
+    "user": [
+      "ishaan"
+    ],
+    "content_type": [
+      "contact",
+      "contactlist"
+    ],
+    "object_id": "1",
+    "object_repr": "info@thirty40.in",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 2,
+  "fields": {
+    "action_time": "2021-09-23T08:20:59.467Z",
+    "user": [
+      "ishaan"
+    ],
+    "content_type": [
+      "Blog",
+      "blog"
+    ],
+    "object_id": "1",
+    "object_repr": "acadsvsdv",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 3,
+  "fields": {
+    "action_time": "2021-09-23T09:40:51.024Z",
+    "user": [
+      "ishaan"
+    ],
+    "content_type": [
+      "Blog",
+      "blog"
+    ],
+    "object_id": "1",
+    "object_repr": "acadsvsdv",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"What is on your mind?\"]}}]"
+  }
+}
+]
