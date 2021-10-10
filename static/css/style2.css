@@ -1,3 +1,4 @@
+/* Landing Page */
 .row1{
   padding-bottom: 2%;
 }
@@ -11,6 +12,7 @@
 #hero .sports{
   margin-top: 40%;
 }
+/* Education Page */
 #hero .education-slider{
   border-top: 5px solid #862428;
 }
@@ -47,6 +49,9 @@
 .about-us .education-content ul i {
     color: #862428;
 }
+.services .icon-box {
+    padding: 30px 20px 30px 20px;
+}
 .services .icon-box .icon-d {
     margin: 0 auto;
     width: 200px;
@@ -56,6 +61,9 @@
     justify-content: center;
     transition: ease-in-out 0.3s;
     position: relative;
+}
+[data-aos^=zoom][data-aos^=zoom].aos-animate {
+    transform: translateZ(0) scale(0.95);
 }
 .clients .education-logo img {
     height: 80px;
