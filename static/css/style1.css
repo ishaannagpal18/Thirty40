@@ -9,7 +9,7 @@
 #hero .landing{
   font-size: 22px;
 }
-#hero .sports{
+#hero .landing-sports{
   margin-top: 40%;
 }
 /* Education Page */
@@ -25,7 +25,7 @@
 .text.show-more .dots{
   display: none;
 }
-#hero .read-more-btn {
+#hero .education {
     padding: 10px 40px;
     background-color: #862428;
     border: none;
@@ -68,6 +68,21 @@
 .clients .education-logo img {
     height: 80px;
     filter: grayscale(0%);
+}
+/* Sports Page */
+#hero .sports-slider {
+    border-top: 5px solid #1bbd36;
+    padding: 20px;
+    width: 70%;
+}
+#hero .sports {
+    padding: 10px 40px;
+    background-color: #1bbd36;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    cursor: pointer;
+    color: white;
 }
 #header{
   padding: 10px 0 0;
