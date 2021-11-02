@@ -177,7 +177,7 @@
 .top{
   padding-top:18%;
   }
-}
+
 #hero {
     height: 50vh;
 }
@@ -220,14 +220,12 @@ section {
 .services .icon-box .icon-d {
     width: 180px;
 }
-/* .carousel-container{
-  height: 100vh;
-}
+
 .carousel-content {
     background: rgba(4, 4, 4, 0.7);
     padding: 10px 20px 20px 20px;
     color: #fff;
-    border-top: 5px solid black;
+    border-top: 2px solid #1bbd36;
 }
 .carousel-content h2 {
     color: #fff;
@@ -253,11 +251,24 @@ section {
     -webkit-animation-delay: 0.8s;
     animation-delay: 0.8s;
     border: 2px solid black;
+    background-color: #1bbd36;
 }
 a:hover {
     color: black;
 }
 .landing{
   font-size: 14px;
-} */
+}
+.education-slider{
+  border-top: 5px solid #862428;
+}
+.education {
+    padding: 10px 40px;
+    background-color: #862428;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    cursor: pointer;
+    color: white;
+}
 }
