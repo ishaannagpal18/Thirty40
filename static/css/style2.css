@@ -210,7 +210,10 @@ section {
 #hero .sports-slider {
     width: 100%;
 }
-.carousel-container{
+.services .icon-box {
+    padding: 0px;
+}
+/* .carousel-container{
   height: 100vh;
 }
 .carousel-content {
@@ -249,5 +252,5 @@ a:hover {
 }
 .landing{
   font-size: 14px;
-}
+} */
 }
