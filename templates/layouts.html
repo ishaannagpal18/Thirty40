@@ -34,7 +34,7 @@
   <!-- Template Main CSS File -->
 
   <link href="{% static 'css/style.css'%}" rel="stylesheet">
-  <link href="{% static 'css/style1.css'%}" rel="stylesheet">
+  <link href="{% static 'css/style2.css'%}" rel="stylesheet">
   <!-- =======================================================
   * Template Name: Company - v4.0.1
   * Template URL: https://bootstrapmade.com/company-free-html-bootstrap-template/
@@ -79,15 +79,17 @@
 
 
           <li><a href="{% url 'contact' %}">Contact</a></li>
-          {% if user.is_authenticated %}
+          <li><a href="{% url 'packages' %}">Packages</a></li>
+          <!-- {% if user.is_authenticated %}
           <li><a href="{% url 'App_Login:logout' %}">Logout</a></li>
 
           {% else %}
 
           <li><a href="{% url 'App_Login:login' %}">Login</a></li>
-          {% endif %}
+          {% endif %} -->
 
         </ul>
+
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
 
@@ -133,6 +135,7 @@
             <ul>
               <li><i class="bx bx-chevron-right"></i> <a href="{% url 'about' %}">About us</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="{% url 'services' %}">Services</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="{% url 'packages' %}">Packages</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="{% url 'testimonial' %}">Testimonial</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="{% url 'Blog:blog_list' %}">Blogs</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>

@@ -2,6 +2,9 @@
 .row1{
   padding-bottom: 2%;
 }
+.mobile-landing{
+  display: none;
+}
 #hero .home-content {
     width: 90%;
     height: 110%;
@@ -11,6 +14,17 @@
 }
 #hero .landing-sports{
   margin-top: 40%;
+}
+.navbar a:hover, .navbar .active, .navbar li:hover > a {
+    opacity: 0.6;
+    color: black;
+}
+.navbar .dropdown ul a:hover, .navbar .dropdown ul .active:hover, .navbar .dropdown ul li:hover > a {
+  opacity: 0.6;
+  color: black;
+}
+.navbar .dropdown ul {
+    border-top: 2px solid black;
 }
 /* Education Page */
 #hero .education-slider{
@@ -111,6 +125,31 @@
   border:1px solid #ccc;
   padding:7% 3%;
 }
+.pricing h3 {
+    font-size: 250%;
+    color: black;
+    background: #F7F6F2;
+}
+.pricing ul li {
+    color: black;
+    font-size: 120%;
+}
+.breadcrumbs {
+    background: #1e1e1e;
+    margin-bottom: 2%;
+}
+#footer .footer-top .footer-links ul i {
+    color: white;
+}
+.back-to-top {
+    background: #212529;
+}
+.back-to-top:hover{
+  background: black;
+}
+#footer .social-links a:hover {
+    background: #111;
+}
 @media screen and (max-width: 550px){
   .line{
   border:1px solid #ccc;
@@ -127,5 +166,88 @@
   border:1px solid #ccc;
   padding-top:50px;
   padding-bottom:50px;
+}
+.desktop-landing{
+  display: none;
+}
+.mobile-landing{
+  display: flex;
+  background-color: black;
+}
+#hero {
+    height: 50vh;
+}
+#hero .education {
+    font-size: 12px;
+}
+#hero .carousel-container {
+    bottom: 1%;
+    top: 2%;
+    left: 2%;
+    right: 2%;
+}
+#hero .carousel-content h2 {
+    font-size: 20px;
+}
+#hero .carousel-content p {
+    font-size: 9.1px;
+}
+.section-title h2 {
+    font-size: 28px;
+}
+section {
+    padding: 0px 0;
+}
+.about-us .content h2 {
+    font-size: 28px;
+    margin-bottom: 0px;
+}
+.about-us .content h3 {
+    font-weight: 500;
+    line-height: 25px;
+    font-size: 22px;
+}
+#hero .sports-slider {
+    width: 100%;
+}
+.carousel-container{
+  height: 100vh;
+}
+.carousel-content {
+    background: rgba(4, 4, 4, 0.7);
+    padding: 10px 20px 20px 20px;
+    color: #fff;
+    border-top: 5px solid black;
+}
+.carousel-content h2 {
+    color: #fff;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: 700;
+}
+.carousel-content p {
+    font-size: 11px;
+}
+.btn-get-started {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 10px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 12px 32px;
+    border-radius: 4px;
+    transition: 0.5s;
+    line-height: 1;
+    margin: 0px;
+    color: #fff;
+    -webkit-animation-delay: 0.8s;
+    animation-delay: 0.8s;
+    border: 2px solid black;
+}
+a:hover {
+    color: black;
+}
+.landing{
+  font-size: 14px;
 }
 }

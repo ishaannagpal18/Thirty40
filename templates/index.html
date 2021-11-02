@@ -32,7 +32,7 @@
   <!-- Template Main CSS File -->
 
   <link href="{% static 'css/style.css'%}" rel="stylesheet">
-  <link href="{% static 'css/style1.css'%}" rel="stylesheet">
+  <link href="{% static 'css/style2.css'%}" rel="stylesheet">
   <!-- =======================================================
   * Template Name: Company - v4.0.1
   * Template URL: https://bootstrapmade.com/company-free-html-bootstrap-template/
@@ -42,7 +42,7 @@
 </head>
 
 <body>
-
+  <div class="desktop-landing">
   <section id="hero">
    <div id="heroCarousel" data-bs-interval="5000" class="carousel slide carousel-fade" data-bs-ride="carousel">
 
@@ -52,7 +52,7 @@
        <div class="carousel-item active" style="background-image: url(static/img/slide/slide-1.jpg);">
          <div class="carousel-container">
            <div class="row row1">
-             <div class="col-lg-4">
+             <div class="col-lg-4 col-4">
                <div class="carousel-content home-content animate__animated animate__fadeInUp">
 
                  <h2><span>Education</span></h2>
@@ -62,7 +62,7 @@ We aim to educate students on the range of courses and universities available ou
                  <div class="text-center"><a href="{% url 'education' %}" class="btn-get-started landing">Education</a></div>
                </div>
              </div>
-             <div class="col-lg-4">
+             <div class="col-lg-4 col-4">
                <div class="carousel-content home-content animate__animated animate__fadeInUp">
                  <h2><span>Sports Consultancy</span></h2>
                  <p>We aim to facilitate players to train worldwide with internationally-acclaimed sports academies and clubs on scholarships and sponsorships.<br>
@@ -71,7 +71,7 @@ We provide cost-effective ways for players to train and play international tourn
                  <div class="text-center"><a href="{% url 'sports' %}" class="btn-get-started landing landing-sports">Sports Consultancy</a></div>
                </div>
               </div>
-               <div class="col-lg-4">
+               <div class="col-lg-4 col-4">
                  <div class="carousel-content home-content animate__animated animate__fadeInUp">
                    <h2><span>Tennis Academy</span></h2>
                    <p>We aim at strengthening the tennis culture in India and facilitate it to emerge into a tennis-playing nation at par with cricket.<br>
@@ -171,6 +171,50 @@ We create technical and tactical coaching based on long-term guidance segregated
      </a>
 
      <ol class="carousel-indicators" id="hero-carousel-indicators"></ol>
+
+   </div>
+   <div class="mobile-landing">
+     <section id="">
+      <div id="heroCarousel" data-bs-interval="5000" class="carousel slide carousel-fade" data-bs-ride="carousel">
+
+        <div class="carousel-inner" role="listbox">
+
+          <!-- Slide 1 -->
+          <div class="carousel-item active" style="background-image: url(static/img/slide/slide-1.jpg);">
+            <div class="carousel-container">
+              <div class="row row1">
+                <div class="col-lg-4 ">
+                  <div class="carousel-content home-content animate__animated animate__fadeInUp">
+
+                    <h2><span>Education</span></h2>
+                    <p>THIRTY40 deals with more than 500 top-notch colleges and schools across the world.<br>
+   We aim to educate students on the range of courses and universities available outside India, which will enable them to make informed decisions about their future. Our students are the future of tomorrow, and we strive to have a brighter future by investing in providing them better opportunities and better understanding of what they can achieve.
+   </p>
+                    <div class="text-center"><a href="{% url 'education' %}" class="btn-get-started landing">Education</a></div>
+                  </div>
+                </div>
+                <div class="col-lg-4 ">
+                  <div class="carousel-content home-content animate__animated animate__fadeInUp">
+                    <h2><span>Sports Consultancy</span></h2>
+                    <p>We aim to facilitate players to train worldwide with internationally-acclaimed sports academies and clubs on scholarships and sponsorships.<br>
+   We provide cost-effective ways for players to train and play international tournaments and leagues.
+   </p>
+                    <div class="text-center"><a href="{% url 'sports' %}" class="btn-get-started landing landing-sports">Sports Consultancy</a></div>
+                  </div>
+                 </div>
+                  <div class="col-lg-4 ">
+                    <div class="carousel-content home-content animate__animated animate__fadeInUp">
+                      <h2><span>Tennis Academy</span></h2>
+                      <p>We aim at strengthening the tennis culture in India and facilitate it to emerge into a tennis-playing nation at par with cricket.<br>
+   Our team consists of certified coaches and professional players who have first-hand experience and exposure of the journey of tennis as a career and related pathways. This enables us to make the whole process easier and player-centric.<br>
+   We create technical and tactical coaching based on long-term guidance segregated into short-term targets.
+   </p>
+                      <div class="text-center"><a href="{% url 'tennis' %}" class="btn-get-started landing">Tennis Academy</a></div>
+                    </div>
+                   </div>
+               </div>
+            </div>
+          </div>
 
    </div>
   </section><!-- End Hero -->

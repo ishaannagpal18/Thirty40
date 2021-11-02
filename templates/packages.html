@@ -1,0 +1,64 @@
+{% extends 'layouts.html' %}
+{% load static %}
+{% block title %}
+Packages
+{% endblock %}
+{% block content %}
+<!-- ======= Breadcrumbs ======= -->
+    <section id="breadcrumbs" class="breadcrumbs">
+      <div class="container">
+
+        <div class="d-flex justify-content-between align-items-center">
+          <h2>Packages</h2>
+          <ol>
+            <li><a href="{% url 'home' %}">Home</a></li>
+            <li>Packages</li>
+          </ol>
+        </div>
+
+      </div>
+    </section><!-- End Breadcrumbs -->
+
+    <!-- ======= Pricing Section ======= -->
+    <section id="pricing" class="pricing">
+      <div class="container" data-aos="fade-up">
+
+        <div class="row">
+
+          <div class="col-lg-6 col-md-6 col-6">
+            <div class="box">
+              <h3>Group</h3>
+
+              <ul>
+                <li>Monthly 6K</li>
+                <li>Quaterly 14K</li>
+                <li>Half Yearly 25K</li>
+                <li>Yearly 45K</li>
+              </ul>
+
+            </div>
+          </div>
+
+          <div class="col-lg-6 col-md-6 col-6">
+            <div class="box">
+              <h3>Private</h3>
+
+              <ul>
+                <li>One Hour 1500</li>
+                <li>10 Classes 12K</li>
+                <li>Monthly 25K</li>
+                <li>Quaterly 60K</li>
+                <li>Half Yearly 90K</li>
+                <li>Yearly 1.5L</li>
+              </ul>
+
+            </div>
+          </div>
+
+
+
+        </div>
+
+      </div>
+    </section><!-- End Pricing Section -->
+    {% endblock %}

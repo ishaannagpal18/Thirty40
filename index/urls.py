@@ -12,4 +12,5 @@ urlpatterns=[
     path('education/',views.education,name='education'),
     path('sports/',views.sports,name='sports'),
     path('tennis/',views.tennis,name='tennis'),
+    path('packages/',views.packages,name='packages'),
 ]

@@ -32,3 +32,6 @@ def sports(request):
 
 def tennis(request):
     return render(request,'tennis.html')
+
+def packages(request):
+    return render(request,'packages.html')
