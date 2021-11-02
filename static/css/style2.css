@@ -190,7 +190,7 @@
     font-size: 20px;
 }
 #hero .carousel-content p {
-    font-size: 9.1px;
+    font-size: 9px;
 }
 .section-title h2 {
     font-size: 28px;
@@ -212,6 +212,9 @@ section {
 }
 .services .icon-box {
     padding: 0px;
+}
+.services .icon-box .icon-d {
+    width: 150px;
 }
 /* .carousel-container{
   height: 100vh;
