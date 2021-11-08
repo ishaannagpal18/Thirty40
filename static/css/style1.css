@@ -12,6 +12,12 @@
 #hero .landing{
   font-size: 22px;
 }
+#hero .education1 {
+    border: 2px solid #862428;
+}
+#hero .education1:hover {
+    background: #862428;
+}
 #hero .landing-sports{
   margin-top: 40%;
 }
@@ -127,12 +133,52 @@
 }
 .pricing h3 {
     font-size: 250%;
-    color: black;
-    background: #F6F6F6;
+    color: #fff;
+    background: black;
 }
 .pricing ul li {
-    color: black;
+    color: #fff;
     font-size: 120%;
+    font-weight: 600;
+}
+.card {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid black;
+    border-radius: 0.25rem;
+    opacity:0.7;
+    margin-bottom: 5%;
+}
+.card-img {
+    width: 100%;
+    border-radius: calc(0.25rem - 1px);
+}
+.card-img-overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1.25rem;
+}
+.card-title {
+    margin-bottom: 0.75rem;
+    text-align: center;
+    font-weight: 900;
+}
+.card-text p {
+    margin-top: 0;
+    margin-bottom: 1rem;
 }
 .breadcrumbs {
     background: #1e1e1e;
