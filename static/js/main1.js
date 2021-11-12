@@ -9,3 +9,7 @@ readMoreBtn.addEventListener('click',(e)=>{
     readMoreBtn.innerText = 'Read More';
   }
 })
+
+function togglePopup(){
+  document.getElementById("popup-1").classList.toggle("active");
+}

@@ -34,7 +34,7 @@
   <!-- Template Main CSS File -->
 
   <link href="{% static 'css/style.css'%}" rel="stylesheet">
-  <link href="{% static 'css/style1.css'%}" rel="stylesheet">
+  <link href="{% static 'css/style2.css'%}" rel="stylesheet">
   <!-- =======================================================
   * Template Name: Company - v4.0.1
   * Template URL: https://bootstrapmade.com/company-free-html-bootstrap-template/
@@ -44,6 +44,37 @@
 </head>
 
 <body>
+  <div class="popup" id="popup-1">
+
+    <div class="overlay"></div>
+
+    <div class="content">
+      <div class="close-btn" onclick="togglePopup()">&times;</div>
+      <h1>Contact Us</h1>
+
+          <form action="" method="post">
+            {% csrf_token %}
+            <div class="row">
+              <div class="col-md-6 form-group">
+                <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+              </div>
+              <div class="col-md-6 form-group mt-3 mt-md-0">
+                <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+              </div>
+            </div>
+            <div class="form-group mt-3">
+              <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+            </div>
+            <div class="form-group mt-3">
+              <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+            </div>
+            <br>
+            <div class="text-center"><button class="btn btn-success btn-contact" type="submit">Send Message</button></div><br>
+          </form>
+
+    </div>
+
+  </div>
     {% block css_block %}
 
     {% endblock %}
@@ -58,9 +89,35 @@
       <nav id="navbar" class="navbar order-last order-lg-0">
         <ul>
           <li><a href="{% url 'home' %}" >Home</a></li>
-          <li><a href="{% url 'education' %}">Education</a></li>
-          <li><a href="{% url 'sports' %}">Sports</a></li>
-          <li><a href="{% url 'tennis' %}">Tennis Academy</a></li>
+          <li class="dropdown"><a href="{% url 'education' %}"><span>Education</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+
+              <li><a href="#about-us">About Us</a></li>
+              <li><a href="#services">Services</a></li>
+              <li><a href="#mission">Our Mission</a></li>
+              <li><a href="#clients">Our Student Studying In</a></li>
+
+            </ul>
+          </li>
+          <li class="dropdown"><a href="{% url 'sports' %}"><span>Sports</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+
+              <li><a href="#about-us">About Us</a></li>
+              <li><a href="#services">Services</a></li>
+              <li><a href="#mission">Our Mission</a></li>
+
+            </ul>
+          </li>
+          <li class="dropdown"><a href="{% url 'tennis' %}"><span>Tennis Academy</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+
+              <li><a href="#about-us">About Us</a></li>
+              <li><a href="#services">Services</a></li>
+              <li><a href="#mission">Our Mission</a></li>
+              <li><a href="#clients">Our Overseas Academies Partners</a></li>
+            </ul>
+          </li>
+
 
 
 
@@ -79,7 +136,7 @@
 
 
           <li><a href="{% url 'contact' %}">Contact</a></li>
-          <li><a href="{% url 'packages' %}">Packages</a></li>
+          <li><a href="{% url 'packages' %}">Book Now</a></li>
           <!-- {% if user.is_authenticated %}
           <li><a href="{% url 'App_Login:logout' %}">Logout</a></li>
 
@@ -171,7 +228,14 @@
       </div>
     </div>
   </footer><!-- End Footer -->
+  <div class="whatsapp_float">
+    <a href="https://wa.me/919811072043" target="_blank"><img src="{% static 'img/whatsapp1.jpg'%}" style="width:50px; border-radius:20%;" class="whatsapp_float_btn">  </a>
 
+  </div>
+  <div class="form_float">
+    <button type="button" onclick="togglePopup()" style="border-radius:20%" name="button"><img src="{% static 'img/form.jpg'%}" style="width:35px; border-radius:20%;"></button>
+
+  </div>
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
   <!-- Vendor JS Files -->
@@ -185,7 +249,7 @@
 
   <!-- Template Main JS File -->
   <script src="{% static 'js/main.js'%}"></script>
-  <script src="{% static 'js/main2.js'%}"></script>
+  <script src="{% static 'js/main1.js'%}"></script>
 
 </body>
 
