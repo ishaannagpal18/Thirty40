@@ -380,7 +380,11 @@ section {
 .services .icon-box .icon-d {
     width: 180px;
 }
-
+.services .icon-box h4 {
+    font-weight: 600;
+    margin: 10px 0 15px 0;
+    font-size: 16px;
+}
 .carousel-content {
     background: rgba(4, 4, 4, 0.7);
     padding: 10px 20px 20px 20px;
