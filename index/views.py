@@ -35,3 +35,6 @@ def tennis(request):
 
 def packages(request):
     return render(request,'packages.html')
+
+def private(request):
+    return render(request,'private.html')
