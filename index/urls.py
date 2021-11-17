@@ -14,4 +14,5 @@ urlpatterns=[
     path('tennis/',views.tennis,name='tennis'),
     path('packages/',views.packages,name='packages'),
     path('private/',views.private,name='private'),
+    path('T&C/',views.T_C,name='T_C'),
 ]

@@ -38,3 +38,6 @@ def packages(request):
 
 def private(request):
     return render(request,'private.html')
+
+def T_C(request):
+    return render(request,'T_C.html')

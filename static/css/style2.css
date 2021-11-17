@@ -333,7 +333,18 @@
 .pricing ul li {
     font-size: 140%;
 }
-
+.padding{
+  padding: 5% 0;
+}
+.TC h1{
+  color: black;
+  font-weight: 600;
+  font-size: 150%;
+}
+.TC p{
+  font-size: 80%;
+}
+}
 @media screen and (max-width:550px){
   .line{
   border:1px solid #ccc;
