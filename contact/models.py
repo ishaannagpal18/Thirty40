@@ -14,4 +14,4 @@ class contactform(models.Model):
     subject = models.CharField(max_length=400, blank=False)
     message = models.TextField(max_length=800, blank=False)
     def __str__(self):
-        return self.name
+        return self.email

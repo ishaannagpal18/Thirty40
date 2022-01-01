@@ -9,12 +9,12 @@ def contactus(request):
         email = request.POST.get('email')
         subject = request.POST.get('subject')
         message = request.POST.get('message')
-        # send_mail(
-        #     email ,
-        #     message,
-        #     email,
-        #     ['mermaidbliss.care@gmail.com']
-        #     )
+        send_mail(
+            email ,
+            message,
+            name,
+            ['info@thirty40.in']
+            )
 
         contactformdata = contactform(name=name, email=email, subject=subject, message=message)
         contactformdata.save()
