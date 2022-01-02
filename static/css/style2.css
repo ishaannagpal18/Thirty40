@@ -141,8 +141,7 @@
 }
 .pricing ul li {
     color: #fff;
-    font-size: 120%;
-    font-weight: 600;
+
 }
 .card {
     position: relative;
@@ -350,4 +349,13 @@ font-size: 600%;
 font-weight: 600;
 color: black;
 font-family: 'Pushster', cursive;
+}
+.packages a{
+  color: white;
+}
+.packages a:hover{
+  color: #1bbd36;
+}
+section{
+  padding: 60px 0 0 0;
 }
