@@ -132,7 +132,7 @@
 }
 .blog{
   border:1px solid #ccc;
-  padding:7% 3%;
+  padding:9% 0 5% 0;
 }
 .pricing h3 {
     font-size: 250%;
@@ -343,4 +343,11 @@
 }
 .TC p{
   font-size: 80%;
+}
+.blog h1{
+text-align: center;
+font-size: 600%;
+font-weight: 600;
+color: black;
+font-family: 'Pushster', cursive;
 }

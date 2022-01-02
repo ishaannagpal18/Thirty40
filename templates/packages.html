@@ -1,7 +1,7 @@
 {% extends 'layouts.html' %}
 {% load static %}
 {% block title %}
-Packages
+Private Package
 {% endblock %}
 {% block content %}
 <!-- ======= Breadcrumbs ======= -->
@@ -18,8 +18,6 @@ Packages
 
       </div>
     </section><!-- End Breadcrumbs -->
-
-    <!-- ======= Pricing Section ======= -->
     <section id="pricing" class="pricing">
       <div class="container" data-aos="fade-up">
 
@@ -61,7 +59,7 @@ Packages
 
           <div class="col-lg-6 col-md-6 ">
 
-            <a href="{% url 'private' %}"><div class="card bg-dark text-white">
+            <a href="#private"><div class="card bg-dark text-white">
   <img class="card-img" src="{% static 'img/packagebg.jpg'%}" alt="Card image">
   <div class="card-img-overlay">
     <h1 class="card-title card-title1">Private</h1>
@@ -82,8 +80,234 @@ Packages
 
 
 
+    </section><!-- End Pricing Section -->
+    <section id= "private">
+
+    <div class="section-title">
+      <h2>Private</h2>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 col-md-4 col-6 d-flex align-items-stretch">
+          <div class="member" data-aos="fade-up">
+            <div class="member-img1">
+              <a href="#kids"><img src="{% static 'img/packages/kids.jpg'%} " class="img-fluid1 img-fluid" alt=""></a>
+            </div>
+            <div class="text-center privateh3">
+              <h3>Kids</h3>
+            </div>
+          </div>
         </div>
+        <div class="col-lg-4 col-md-4 col-6 d-flex align-items-stretch">
+          <div class="member" data-aos="fade-up">
+            <div class="member-img1">
+              <a href="#adults"><img src="{% static 'img/packages/adults.jpeg'%} " class="img-fluid1 img-fluid" alt=""></a>
+            </div>
+            <div class="text-center privateh3">
+              <h3>Adults</h3>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-4 col-6 d-flex align-items-stretch">
+          <div class="member" data-aos="fade-up">
+            <div class="member-img1">
+              <a href="#privatec"><img src="{% static 'img/packages/pcoaching.jpg'%} " class="img-fluid1 img-fluid" alt=""></a>
+            </div>
+            <div class="text-center privateh3">
+              <h3>Private Coaching</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+    <section id="kids" class="clients">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Kids</h2>
+        </div>
+      <div class="row adults">
+        <div class="col-lg-4">
+          <div class="card bg-dark text-white">
+            <img class="card-img" src="{% static 'img/tennisbg1.jpg'%}" alt="Card image">
+            <div class="card-img-overlay">
+              <h5 class="card-title">Red Ball</h5>
+              <p class="card-text">
+                Ages  4-6 Years <br>
+                Introduce your child to the world of tennis and all it has to offer. Learn through fun games and develop fundamental skills.<br> <br>
+
+
+                1 Hour Session <br>
+              </p>
+              <p class="card-text">6 Slots remaining</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="card bg-dark text-white">
+            <img class="card-img" src="{% static 'img/tennisbg1.jpg'%}" alt="Card image">
+            <div class="card-img-overlay">
+              <h5 class="card-title">Orange Ball</h5>
+              <p class="card-text">
+                Ages  6-8 Years <br>
+                Children are introduced to second-level concepts and rallies.<br> <br>
+                1 Hour Session <br>
+              </p>
+              <p class="card-text">4 Slots remaining</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="card bg-dark text-white">
+            <img class="card-img" src="{% static 'img/tennisbg1.jpg'%}" alt="Card image">
+            <div class="card-img-overlay">
+              <h5 class="card-title">Green Ball</h5>
+              <p class="card-text">
+                Ages  8-10 Years <br>
+                An important stage to build a firm foundation. More complex concepts are introduced and the sessions are more engaging.<br> <br>
+                1 Hour Session <br>
+              </p>
+              <p class="card-text">6 Slots remaining</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="card bg-dark text-white">
+            <img class="card-img" src="{% static 'img/tennisbg1.jpg'%}" alt="Card image">
+            <div class="card-img-overlay">
+              <h5 class="card-title">Kids (Beginner)</h5>
+              <p class="card-text">
+                Ages  10-15 Years <br>
+                The basics of tennis are taught while focusing on the fundamentals of the game. <br> <br>
+                1 Hour Session <br>
+              </p>
+              <p class="card-text">4 Slots remaining</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="card bg-dark text-white">
+            <img class="card-img" src="{% static 'img/tennisbg1.jpg'%}" alt="Card image">
+            <div class="card-img-overlay">
+              <h5 class="card-title">Kids (Intermediate)</h5>
+              <p class="card-text">
+                Ages  10-15 Years <br>
+                More focus is given to learning the strategy of the game while keeping in mind the technique. <br> <br>
+                1 Hour Session <br>
+              </p>
+              <p class="card-text">3 Slots remaining</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+    <div class="enquiry">
+      <div class="section-title enquiry-content">
+        <h2>Limited Slots Available Hurry Up!</h2>
+        <button class="btn btn-primary sports" onclick="togglePopup()" >Enquire Now</button>
 
       </div>
-    </section><!-- End Pricing Section -->
-    {% endblock %}
+
+    </div>
+    <br><br>
+    <section id="adults" class="clients">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Adults</h2>
+        </div>
+      <div class="row adults">
+        <div class="col-lg-4">
+          <div class="card bg-dark text-white">
+            <img class="card-img" src="{% static 'img/tennisbg1.jpg'%}" alt="Card image">
+            <div class="card-img-overlay">
+              <h5 class="card-title">Adults (Beginner)</h5>
+              <p class="card-text">
+                Ages  16+ Years <br>
+                The basics of tennis are taught in a more profound way. Unlearning already learned techniques is emphasized.<br> <br>
+
+
+                1 Hour Session <br>
+              </p>
+              <p class="card-text"></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="card bg-dark text-white">
+            <img class="card-img" src="{% static 'img/tennisbg1.jpg'%}" alt="Card image">
+            <div class="card-img-overlay">
+              <h5 class="card-title">Adults (Intermediate)</h5>
+              <p class="card-text">
+                Ages  16+ Years <br>
+                Move into learning more advanced techniques and concepts like slice and different serve variations.<br> <br>
+                1 Hour Session <br>
+              </p>
+              <p class="card-text"></p>
+            </div>
+          </div>
+        </div>
+
+
+    </section>
+    <div class="enquiry">
+      <div class="section-title enquiry-content">
+        <h2>Limited Slots Available Hurry Up!</h2>
+        <button class="btn btn-primary sports" onclick="togglePopup()" >Enquire Now</button>
+
+      </div>
+
+    </div>
+    <br><br>
+    <section id="privatec" class="clients">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Private Coaching</h2>
+        </div>
+      <div class="row adults">
+        <div class="col-lg-4">
+          <div class="card bg-dark text-white">
+            <img class="card-img" src="{% static 'img/tennisbg1.jpg'%}" alt="Card image">
+            <div class="card-img-overlay">
+              <h5 class="card-title">Private Lesson</h5><br><br>
+              <h5 class="card-text">
+                <br><br>
+                1 Hour Package<br> <br>
+
+
+
+              </h5>
+              <h5 class="card-text"></h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="card bg-dark text-white">
+            <img class="card-img" src="{% static 'img/tennisbg1.jpg'%}" alt="Card image">
+            <div class="card-img-overlay">
+              <h5 class="card-title">Private Lesson Pack of 10</h5><br><br>
+              <h5 class="card-text">
+
+                1 Hour Package<br> <br>
+              </h5>
+              <h5 class="card-text"></h5>
+            </div>
+          </div>
+        </div>
+
+
+    </section>
+    <div class="enquiry">
+      <div class="section-title enquiry-content">
+        <h2>Limited Slots Available Hurry Up!</h2>
+        <button class="btn btn-primary sports" onclick="togglePopup()" >Enquire Now</button>
+
+      </div>
+
+    </div>
+    <br><br>
+
+{%endblock%}
