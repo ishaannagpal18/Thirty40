@@ -64,6 +64,7 @@ section {
 }
 .services .icon-box {
     padding: 0px;
+    padding-top: 20px;
 }
 .services .icon-box .icon-d {
     width: 180px;
@@ -128,5 +129,10 @@ a:hover {
     height: 420px;
     padding: 10px;
 
+}
+}
+@media only screen and (min-width : 1800px) {
+  #hero .landing-sports {
+    margin-top: 18%;
 }
 }
