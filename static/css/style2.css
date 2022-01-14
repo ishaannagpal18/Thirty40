@@ -360,3 +360,24 @@ font-family: 'Pushster', cursive;
 section{
   padding: 60px 0 0 0;
 }
+.iconbox-blue1{
+  color: #47aeff;
+}
+.iconbox-orange1{
+  color: #ffa76e;
+}
+.iconbox-pink1{
+  color: #e80368;
+}
+.iconbox-yellow1{
+  color: #ffbb2c;
+}
+.iconbox-red1{
+  color: #ff5828;
+}
+.iconbox-teal1{
+  color: #11dbcf;
+}
+.services .icon-box h4 {
+  color: black;
+}
