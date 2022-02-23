@@ -1,6 +1,7 @@
 from django.shortcuts import render
 from .models import contactlist, contactform
 from django.core.mail import send_mail
+from django.contrib import messages
 # Create your views here.
 def contactus(request):
     # contactlistdata = contactlist.objects.all()[0]
@@ -15,7 +16,7 @@ def contactus(request):
             name,
             ['info@thirty40.in']
             )
-
+        messages.success(request, 'Your message was delivered successfully')
         contactformdata = contactform(name=name, email=email, subject=subject, message=message)
         contactformdata.save()
 

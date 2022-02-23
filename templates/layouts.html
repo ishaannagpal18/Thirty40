@@ -53,7 +53,15 @@
     <div class="content">
       <div class="close-btn" onclick="togglePopup()">&times;</div>
       <h1>Contact Us</h1>
+      {% if messages %}
 
+      {% for message in messages %}
+      <div class="alert alert-info">
+          {{ message }}
+      </div>
+      {% endfor %}
+
+  {% endif %}
           <form action="" method="post">
             {% csrf_token %}
             <div class="row">
