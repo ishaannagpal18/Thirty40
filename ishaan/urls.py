@@ -15,9 +15,9 @@ urlpatterns = [
     path('contactus/', include('contact.urls')),
     path('account/', include('App_Login.urls')),
     path('blog/', include('Blog.urls')),
-    path('education/', include('Education.urls')),
-    path('sports/', include('Sports.urls')),
-    path('tennis/', include('Tennis.urls')),
+    # path('education/', include('Education.urls')),
+    path('tennis-consultancy/', include('Sports.urls')),
+    path('', include('Tennis.urls')),
     url(r'^media/(?P<path>.*)$', serve,{'document_root':       settings.MEDIA_ROOT}),
     url(r'^static/(?P<path>.*)$', serve,{'document_root': settings.STATIC_ROOT})
 ]

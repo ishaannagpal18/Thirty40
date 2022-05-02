@@ -14,7 +14,7 @@ def contactus(request):
             email ,
             message,
             name,
-            ['info@thirty40.in']
+            ['ishaan18nagpal@gmail.com']
             )
         messages.success(request, 'Your message was delivered successfully')
         contactformdata = contactform(name=name, email=email, subject=subject, message=message)
