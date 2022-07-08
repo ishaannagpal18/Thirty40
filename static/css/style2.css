@@ -381,3 +381,6 @@ section{
 .services .icon-box h4 {
   color: black;
 }
+.testimonials .testimonial-item {
+margin-bottom: 4%;
+}

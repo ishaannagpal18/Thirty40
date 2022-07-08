@@ -7,7 +7,7 @@ from django.conf import settings
 from django.contrib.staticfiles.urls import static,staticfiles_urlpatterns
 
 from django.views.static import serve
-from django.conf.urls import url
+from django.urls import re_path as url
 
 urlpatterns = [
     path('admin/', admin.site.urls),
