@@ -1,0 +1,124 @@
+{% extends 'layouts.html' %}
+{% load static %}
+{% block title %}
+Packages
+{% endblock %}
+{% block style%}
+<style media="screen">
+  table, th, td {
+  border: 2px solid white;
+}
+table{
+  width: 100%;
+text-align: center;
+}
+</style>
+{% endblock %}
+{% block content %}
+<!-- ======= Breadcrumbs ======= -->
+    <section id="breadcrumbs" class="breadcrumbs">
+      <div class="container">
+
+        <div class="d-flex justify-content-between align-items-center">
+          <h2>Packages</h2>
+          <ol>
+            <li><a href="{% url 'home' %}">Home</a></li>
+            <li>Packages</li>
+          </ol>
+        </div>
+
+      </div>
+    </section><!-- End Breadcrumbs -->
+
+<!-- End Pricing Section -->
+
+<section id="muzaffarnagar" class="clients">
+  <div class="container" >
+
+    <div class="section-title">
+      <h2>Muzaffarnagar Packages</h2>
+    </div>
+  <div class="row adults">
+    <div class="col-lg-5">
+      <div class="card bg-dark text-white">
+        <img class="card-img" src="{% static 'img/bg1.jpg'%}" alt="Card image">
+        <div class="card-img-overlay">
+          <h5 class="card-title">For Juniors</h5>
+          <p class="card-text">
+            Registration Fee For All : Rs 250 (One time) <br>
+            <table border="2px solid black">
+              <th>Coaching/Fitness</th>
+              <th>Outsider</th>
+              <th>Shardenjan</th>
+              <tr>
+                <td>Group Coaching (Per Month)</td>
+                <td>1499/-</td>
+                <td>1299/-</td>
+              </tr>
+
+              <tr>
+                <td>Personilized</td>
+                <td colspan="2">Per Hour</td>
+              </tr>
+              <tr>
+                <td>Coaching/Fitness</td>
+                <td colspan="2">999/-</td>
+              </tr>
+              <tr>
+                <td>Pack Of One Month</td>
+                <td colspan="2">14999/-</td>
+              </tr>
+
+            </table><br>
+
+          </p>
+          <p class="card-text">7 Slots remaining</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-5">
+      <div class="card bg-dark text-white">
+        <img class="card-img" src="{% static 'img/bg1.jpg'%}" alt="Card image">
+        <div class="card-img-overlay">
+          <h5 class="card-title">For Seniors</h5>
+          <p class="card-text">
+            Registration Fee For All : Rs 250 (One time) <br>
+            <table border="2px solid black">
+              <th>Coaching/Fitness</th>
+              <th>Outsider</th>
+
+              <tr>
+                <td>Group Coaching (Per Month)</td>
+                <td>1999/-</td>
+
+              </tr>
+
+              <tr>
+                <td>Personilized</td>
+                <td colspan="2">Per Hour (With Lights)</td>
+              </tr>
+              <tr>
+                <td>Coaching/Fitness</td>
+                <td colspan="2">1199/-</td>
+              </tr>
+              <tr>
+                <td>Pack Of One Month</td>
+                <td colspan="2">17999/-</td>
+              </tr>
+
+            </table><br>
+
+          </p>
+          <p class="card-text">4 Slots remaining</p>
+        </div>
+      </div>
+    </div>
+
+
+
+  </div>
+
+</section>
+
+
+{%endblock%}

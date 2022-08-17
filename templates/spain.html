@@ -1,0 +1,56 @@
+{% extends 'layouts.html' %}
+{% load static %}
+{% block title %}
+Packages
+{% endblock %}
+{% block style%}
+<style media="screen">
+  table, th, td {
+  border: 2px solid white;
+}
+table{
+  width: 100%;
+text-align: center;
+}
+</style>
+{% endblock %}
+{% block content %}
+<!-- ======= Breadcrumbs ======= -->
+    <section id="breadcrumbs" class="breadcrumbs">
+      <div class="container">
+
+        <div class="d-flex justify-content-between align-items-center">
+          <h2>Packages</h2>
+          <ol>
+            <li><a href="{% url 'home' %}">Home</a></li>
+            <li>Packages</li>
+          </ol>
+        </div>
+
+      </div>
+    </section><!-- End Breadcrumbs -->
+
+<!-- End Pricing Section -->
+
+<section id="vedas" class="clients">
+  <div class="container" >
+
+    <div class="section-title">
+      <h2>Spain Packages</h2>
+    </div><br>
+
+
+</section>
+
+
+    <div class="enquiry">
+      <div class="section-title enquiry-content">
+        <h2>Limited Slots Available Hurry Up!</h2>
+        <button class="btn btn-primary sports" onclick="togglePopup()" >Enquire Now</button>
+
+      </div>
+
+    </div>
+    <br><br>
+
+{%endblock%}

@@ -1,0 +1,152 @@
+{% extends 'layouts.html' %}
+{% load static %}
+{% block title %}
+Packages
+{% endblock %}
+{% block style%}
+<style media="screen">
+  table, th, td {
+  border: 2px solid white;
+}
+table{
+  width: 100%;
+text-align: center;
+}
+</style>
+{% endblock %}
+{% block content %}
+<!-- ======= Breadcrumbs ======= -->
+    <section id="breadcrumbs" class="breadcrumbs">
+      <div class="container">
+
+        <div class="d-flex justify-content-between align-items-center">
+          <h2>Packages</h2>
+          <ol>
+            <li><a href="{% url 'home' %}">Home</a></li>
+            <li>Packages</li>
+          </ol>
+        </div>
+
+      </div>
+    </section><!-- End Breadcrumbs -->
+
+<!-- End Pricing Section -->
+
+<section id="vedas" class="clients">
+  <div class="container" >
+
+    <div class="section-title">
+      <h2>Gurugram Packages</h2>
+    </div><br>
+  <div class="row adults">
+    <div class="col-lg-5">
+      <div style="overflow-y: scroll;" class="card bg-dark text-white">
+        <img class="card-img" src="{% static 'img/bg1.jpg'%}" alt="Card image">
+        <div class="card-img-overlay">
+          <h5 class="card-title">Vedas Students</h5>
+          <p class="card-text">
+            Registration Fee For All : Rs 500 (One time) <br>
+            <table border="2px solid black">
+              <th>For Juniors (Upto Age 18 Years)</th>
+              <th>Monthly</th>
+              <th>Quaterly</th>
+              <tr>
+                <td>Group Tennis(6 Days a Week)</td>
+                <td>6000/-</td>
+                <td>15000/-</td>
+              </tr>
+              <tr>
+                <td>Group Tennis(3 Days a Week)</td>
+                <td>4000/-</td>
+                <td>10000/-</td>
+              </tr>
+              <tr>
+                <td>Group Tennis(3 Days a Week)</td>
+                <td>3000/-</td>
+                <td>8000/-</td>
+              </tr>
+              <tr>
+                <td>Personilized</td>
+                <td colspan="2">Per Hour</td>
+              </tr>
+              <tr>
+                <td>Coaching/Fitness</td>
+                <td colspan="2">3000/-</td>
+              </tr>
+              <tr>
+                <td>Pack Of One Month</td>
+                <td colspan="2">60000/-</td>
+              </tr>
+
+            </table><br>
+
+          </p>
+          <p class="card-text">6 Slots remaining</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-5">
+      <div style="overflow-y: scroll;" class="card bg-dark text-white">
+        <img class="card-img" src="{% static 'img/bg1.jpg'%}" alt="Card image">
+        <div class="card-img-overlay">
+          <h5 class="card-title">Outsiders</h5>
+          <p class="card-text">
+            Registration Fee For All : Rs 250 (One time) <br>
+            <table border="2px solid black">
+              <th>For Juniors (Upto Age 18 Years)</th>
+              <th>Monthly</th>
+              <th>Quaterly</th>
+              <tr>
+                <td>Group Tennis(6 Days a Week)</td>
+                <td>8000/-</td>
+                <td>20000/-</td>
+              </tr>
+              <tr>
+                <td>Group Tennis(3 Days a Week)</td>
+                <td>5000/-</td>
+                <td>12000/-</td>
+              </tr>
+              <tr>
+                <td>Group Tennis(3 Days a Week)</td>
+                <td>4000/-</td>
+                <td>10000/-</td>
+              </tr>
+              <tr>
+                <td>Personilized</td>
+                <td colspan="2">Per Hour</td>
+              </tr>
+              <tr>
+                <td>Coaching/Fitness</td>
+                <td colspan="2">3000/-</td>
+              </tr>
+              <tr>
+                <td>Pack Of One Month</td>
+                <td colspan="2">60000/-</td>
+              </tr>
+
+            </table><br>
+
+          </p>
+          <p class="card-text">4 Slots remaining</p>
+        </div>
+      </div>
+    </div>
+
+
+
+  </div>
+
+</section>
+
+
+    <div class="enquiry">
+      <div class="section-title enquiry-content">
+        <h2>Limited Slots Available Hurry Up!</h2>
+        <button class="btn btn-primary sports" onclick="togglePopup()" >Enquire Now</button>
+
+      </div>
+
+    </div>
+    <br><br>
+
+{%endblock%}

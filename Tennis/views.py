@@ -41,3 +41,15 @@ def private(request):
 
 def T_C(request):
     return render(request,'T_C.html')
+
+def gurugram(request):
+    return render(request,'gurugram.html')
+
+def delhi(request):
+    return render(request,'delhi.html')
+
+def muza(request):
+    return render(request,'muza.html')
+
+def spain(request):
+    return render(request,'spain.html')        
