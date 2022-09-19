@@ -52,4 +52,7 @@ def muza(request):
     return render(request,'muza.html')
 
 def spain(request):
-    return render(request,'spain.html')        
+    return render(request,'spain.html')
+
+def news(request):
+    return render(request,'news.html')      

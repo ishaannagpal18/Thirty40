@@ -121,6 +121,7 @@
               <li><a href="{% url 'services' %}">Services</a></li>
               <li><a href="{% url 'Blog:blog_list' %}">Blogs</a></li>
               <li><a href="{% url 'testimonial' %}">Testimonials</a></li>
+              <li><a href="{% url 'news' %}">News</a></li>
 
             </ul>
           </li>
@@ -242,6 +243,9 @@
   <!-- Template Main JS File -->
   <script src="{% static 'js/main.js'%}"></script>
   <script src="{% static 'js/main1.js'%}"></script>
+  {% block js%}
+
+  {% endblock %}
 
 </body>
 

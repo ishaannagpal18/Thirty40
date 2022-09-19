@@ -17,4 +17,5 @@ urlpatterns=[
     path('delhi/',views.delhi,name='delhi'),
     path('muzaffarnagar/',views.muza,name='muza'),
     path('spain/',views.spain,name='spain'),
+    path('news/',views.news,name='news'),
 ]
