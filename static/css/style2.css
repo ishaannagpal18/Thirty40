@@ -90,7 +90,7 @@
     transform: translateZ(0) scale(0.95);
 }
 .clients .education-logo img {
-    height: 80px;
+    height: 135px;
     filter: grayscale(0%);
 }
 /* Sports Page */
@@ -414,3 +414,7 @@ margin-bottom: 4%;
   0% {transform: translateX(0);}
   100% {transform: translatex(-1000%)}
 }
+
+.clients .client-logo {
+  height: 200px;
+  }
